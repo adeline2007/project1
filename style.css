@@ -1,0 +1,175 @@
+*{
+	margin: 0px;
+	font-family: 'Do Hyeon', sans-serif;
+}
+.bg{
+	height: 95vh;
+	background-repeat: none repeat; 
+	background-image: url(img/1.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-right: 400px;
+}
+.sircle{
+	width: 115px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #e04f00;
+	float:right;
+	margin-top: 50px;  
+	padding-left: 35px;
+	padding-top: 50px;
+	color: white;
+	font-size: 40px;
+}
+.help{
+	font-size: 9px;
+	margin-left: 15px;
+}
+.GOOD{
+	clear: both;
+	height: 50px;
+	float: right;
+	color: white;
+	font-size: 250px;
+	font-family: 'Do Hyeon', sans-serif;
+	font-family: 'Staatliches', cursive;
+	padding-bottom: 200px;
+}
+.text1{
+	clear: both;
+	height: 50px;
+	color: #515151;
+	font-size: 50px;
+	float: right;
+	margin-right: 40px;
+}
+.surge{
+	clear: both;
+	float: right;
+	margin-top: 60px;
+}
+.button{
+	color: #515151;
+	float: left;
+	background-color: #343434;
+	font-size: 30px;
+	padding: 60px 60px 60px 60px;
+
+}
+.button:hover{
+	background-color: #202020;
+	color: white;
+}
+.text2{
+	clear: both;
+	height: 20px;
+	width: 200px;
+	float: right;
+	color: #515151;
+}
+.text22{
+	margin-top: 150px;
+}
+.text222{
+	margin-top: 5px;
+	width: 300px;
+}
+.footer{
+	height: 5vh;
+	background-color: #515151;
+}
+@media all and (max-width: 2000px){
+	.bg{
+		padding-right: 200px;
+	}
+}
+@media all and (max-width: 1630px){
+	.bg{
+		padding-right: 100px;
+	}
+	.button{
+		padding: 40px 40px 40px 40px;
+	}
+}
+@media all and (max-width: 1350px){
+	.bg{
+		padding-right: 50px;
+	}
+	.GOOD{
+		font-size: 150px;
+		height: 25px;
+		padding-bottom: 130px;
+	}
+	.text1{
+		font-size: 25px;
+		margin-right: 20px;
+	}
+	.button{
+		padding: 30px 40px;
+		width: 130px;
+		text-align: center;
+	}
+	.b1{
+		clear: both;
+	}
+}
+@media all and (max-width: 745px){
+	.b1{
+		clear: none;
+	}
+	.b2{
+		clear: both;
+	}
+	.sircle{
+		width: 75px;
+		height: 75px;
+		padding: 25px 0 0 25px;
+		font-size: 20px;
+
+	}
+	.help{
+		font-size: 9px;
+		margin-left: 0px;
+	}
+}
+@media all and (max-width: 525px){
+	.button{
+		padding: 15px 25px;
+		font-size: 20px;
+		float: none;
+	}
+	.GOOD{
+		font-size: 75px;
+		padding-bottom: 50px;
+	}
+	.sircle{
+		font-size: 18px;
+		width: 50px;
+		height: 50px;
+	}
+	.help{
+		display: none;
+	}
+	.text1{
+		font-size: 18px;
+	}
+	.surge{
+		margin-top: 15px;
+	}
+}
+@media all and (max-height: 750px){
+	.bg{
+		padding-right: 25px;
+	}
+	.sircle{
+		margin-top: 15px;
+	}
+	.surge{
+		margin-top: 10px;
+	}
+	.text1{
+		height: 25px;
+
+	}
+}
